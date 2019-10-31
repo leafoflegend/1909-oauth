@@ -4,3 +4,4 @@ node_modules
 static/client.js
 static/client.js.map
 .npmrc
+.env
