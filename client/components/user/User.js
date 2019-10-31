@@ -11,9 +11,7 @@ class User extends Component {
     return (
       <div style={styles.pageContainer}>
         <pre
-          style={{
-            word
-          }}
+          style={styles.codeContainer}
         >
           { JSON.stringify(user, null ,2) }
         </pre>

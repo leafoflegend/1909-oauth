@@ -8,6 +8,12 @@ const styles = {
     justifyContent: 'flex-start',
     alignItems: 'center',
   },
+  codeContainer: {
+    whiteSpace: 'pre-wrap',
+    overflowX: 'scroll',
+    color: 'lightgreen',
+    maxWidth: '100%',
+  },
 };
 
 export default styles;
