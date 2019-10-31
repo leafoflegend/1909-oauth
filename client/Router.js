@@ -12,7 +12,7 @@ class Router extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path={"/user"} exact>
+          <Route path={'/user'} exact>
             <User />
           </Route>
           <Route>
