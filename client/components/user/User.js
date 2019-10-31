@@ -20,16 +20,18 @@ class User extends Component {
   }
 }
 
-User.propTypes = {};
-
-const mapStateToProps = state => ({
+User.propTypes = {
   user: PropTypes.oneOfType([
     PropTypes.oneOf([null]),
     PropTypes.object,
   ]).isRequired,
+};
+
+const mapStateToProps = state => ({
+  user: {},
 });
 
-const mapDispatchToProps = (dispatch, { history }) => ({});
+const mapDispatchToProps = dispatch => ({});
 
 const ConnectedUser = withRouter(connect(mapStateToProps, mapDispatchToProps)(User));
 
