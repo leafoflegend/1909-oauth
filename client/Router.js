@@ -5,14 +5,14 @@ import {
   Route,
 } from 'react-router-dom';
 import Home from './components/home/Home.js';
-import User from './components/User.js';
+import User from './components/user/User.js';
 
 class Router extends Component {
   render() {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path={"/user"} exact>
+          <Route path={'/user'} exact>
             <User />
           </Route>
           <Route>
