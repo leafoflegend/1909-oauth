@@ -11,7 +11,8 @@ class Home extends Component {
       <div
         style={styles.pageContainer}
       >
-
+        <h1> Our cool OAUTH App. </h1>
+        <a href={"/api/github/login"}> Login to Github here! </a>
       </div>
     );
   }
